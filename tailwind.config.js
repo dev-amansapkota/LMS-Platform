@@ -1,15 +1,14 @@
-export const content = [
-  "./index.html",
-  "./src/**/*.{js,ts,jsx,tsx}",
-];
+// tailwind.config.js
+import defaultTheme from 'tailwindcss/defaultTheme';
 
-export const theme = {
-  extend: {
-    fontFamily: {
-      // Override the default sans font stack to use Roboto first
-      sans: ['Roboto', 'sans-serif'],
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+      },
     },
   },
+  plugins: [],
 };
-
-export const plugins = [];

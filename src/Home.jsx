@@ -64,9 +64,12 @@ duration:2
             industry experts <br /> and elevate your knowledge to new heights.
           </p>
           <br />
-          <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
-            Explore Courses
-          </button>
+         <div className="inline-block p-[2px] rounded bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 animate-bounce">
+  <button className="text-black px-4 py-2 bg-white rounded w-full h-full " h>
+    Explore Courses
+  </button>
+</div>
+
         </div>
 
          
@@ -96,61 +99,37 @@ duration:2
       <br />
 
        
-      <div>
-        <div className="my-5 mx-10">
-          <h2 className="text-4xl font-bold">Browse By Categories</h2>
-          <h4>
-            Not sure where to begin? Browse our wide range of categories including <br />
-            IOE, B.Sc.CSIT, BIT, BCA, B.Sc — and find the perfect course to match your goals.
-          </h4>
-          <button className="my-5 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
-            All Categories
-          </button>
+ <div className="px-4 md:px-12 my-10 text-left">
+  <div className="max-w-6xl mx-auto">
+    <h2 className="text-4xl font-bold mb-4">Browse By Categories</h2>
+    <h4 className="text-base leading-relaxed">
+      Not sure where to begin? Browse our wide range of categories including <br />
+      IOE, B.Sc.CSIT, BIT, BCA, B.Sc — and find the perfect course to match your goals.
+    </h4>
+    <button className="mt-5 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+      All Categories
+    </button>
 
-     <div className="containers flex gap-6 flex-wrap mt-6 w-auto h-auto ">
-
-             
-            <div className="hover:scale-110 transition-transform duration-300 px-6 py-8 bg-[#f4f7fb]  rounded text-black w-40 text-center shadow-md shadow-white">
-              <div className='mx-6 justify-center items-center w-18 hover:bg-blue-700 h-18 rounded-full bg-white'>
-                <img  src="https://i0.wp.com/www.bbscollegenepal.com/wp-content/uploads/2021/09/tribhuvan-university-logo-1.png?fit=1200%2C630&ssl=1" alt="IOE" className="w-full h-14 shadow-black mx-auto mb-2 items-center justify-center my-2" />
-              </div>
-              <h4 className="font-semibold text-lg text-black mt-1 justify-center">IOE</h4>
-            </div>
-
-             
-             <div className="hover:scale-110 transition-transform duration-300 px-6 py-8 bg-[#f4f7fb]  rounded text-black w-40 text-center shadow-md shadow-white">
-              <div className='mx-6 justify-center items-center w-18 hover:bg-blue-700 h-18 rounded-full bg-white'>
-                <img  src="https://i0.wp.com/www.bbscollegenepal.com/wp-content/uploads/2021/09/tribhuvan-university-logo-1.png?fit=1200%2C630&ssl=1" alt="IOE" className="w-full h-14 shadow-black mx-auto mb-2 items-center justify-center my-2" />
-              </div>
-              <h4 className="font-semibold text-lg text-black mt-1 justify-center">BSc.CSIT</h4>
-            </div>
-             <div className="hover:scale-110 transition-transform duration-300 px-6 py-8 bg-[#f4f7fb]  rounded text-black w-40 text-center shadow-md shadow-white">
-              <div className='mx-6 justify-center items-center w-18 hover:bg-blue-700 h-18 rounded-full bg-white'>
-                <img  src="https://i.imgur.com/Sm8hCdC.png" alt="IOE" className="w-full h-14 shadow-black mx-auto mb-2 items-center justify-center my-2" />
-              </div>
-              <h4 className="font-semibold text-lg text-black mt-1 justify-center">CEE</h4>
-            </div>
-             <div className="hover:scale-110 transition-transform duration-300 px-6 py-8 bg-[#f4f7fb]  rounded text-black w-40 text-center shadow-md shadow-white">
-              <div className='mx-6 justify-center items-center w-18 hover:bg-blue-700 h-18 rounded-full bg-white'>
-                <img  src="https://i0.wp.com/www.bbscollegenepal.com/wp-content/uploads/2021/09/tribhuvan-university-logo-1.png?fit=1200%2C630&ssl=1" alt="IOE" className="w-full h-14 shadow-black mx-auto mb-2 items-center justify-center my-2" />
-              </div>
-              <h4 className="font-semibold text-lg text-black mt-1 justify-center">BICTE</h4>
-            </div>
-             <div className="hover:scale-110 transition-transform duration-300 px-6 py-8 bg-[#f4f7fb]  rounded text-black w-40 text-center shadow-md shadow-white">
-              <div className='mx-6 justify-center items-center w-18 hover:bg-blue-700 h-18 rounded-full bg-white'>
-                <img  src="https://i0.wp.com/www.bbscollegenepal.com/wp-content/uploads/2021/09/tribhuvan-university-logo-1.png?fit=1200%2C630&ssl=1" alt="IOE" className="w-full h-14 shadow-black mx-auto mb-2 items-center justify-center my-2" />
-              </div>
-              <h4 className="font-semibold text-lg text-black mt-1 justify-center">BIT</h4>
-            </div>
-             <div className="hover:scale-110 transition-transform duration-300 px-6 py-8 bg-[#f4f7fb]  rounded text-black w-40 text-center shadow-md shadow-white">
-              <div className='mx-6 justify-center items-center w-18 hover:bg-blue-700 h-18 rounded-full bg-white'>
-                <img  src="https://i0.wp.com/www.bbscollegenepal.com/wp-content/uploads/2021/09/tribhuvan-university-logo-1.png?fit=1200%2C630&ssl=1" alt="IOE" className="w-full h-14 shadow-black mx-auto mb-2 items-center justify-center my-2" />
-              </div>
-              <h4 className="font-semibold text-lg text-black mt-1 justify-center">BCA</h4>
-            </div>
+    <div className="mt-8 flex flex-wrap gap-6 items-start justify-start">
+      {[
+        { label: "IOE", img: "https://i0.wp.com/www.bbscollegenepal.com/wp-content/uploads/2021/09/tribhuvan-university-logo-1.png?fit=1200%2C630&ssl=1" },
+        { label: "BSc.CSIT", img: "https://i0.wp.com/www.bbscollegenepal.com/wp-content/uploads/2021/09/tribhuvan-university-logo-1.png?fit=1200%2C630&ssl=1" },
+        { label: "CEE", img: "https://i.imgur.com/Sm8hCdC.png" },
+        { label: "BICTE", img: "https://i0.wp.com/www.bbscollegenepal.com/wp-content/uploads/2021/09/tribhuvan-university-logo-1.png?fit=1200%2C630&ssl=1" },
+        { label: "BIT", img: "https://i0.wp.com/www.bbscollegenepal.com/wp-content/uploads/2021/09/tribhuvan-university-logo-1.png?fit=1200%2C630&ssl=1" },
+        { label: "BCA", img: "https://i0.wp.com/www.bbscollegenepal.com/wp-content/uploads/2021/09/tribhuvan-university-logo-1.png?fit=1200%2C630&ssl=1" }
+      ].map((item, index) => (
+        <div key={index} className="hover:scale-110 transition-transform duration-300 px-6 py-8 bg-[#f4f7fb] rounded text-black w-40 text-center shadow-md">
+          <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center mx-auto mb-4 hover:bg-blue-700 transition-colors">
+            <img src={item.img} alt={item.label} className="w-full h-12 object-contain" />
           </div>
+          <h4 className="font-semibold text-lg mt-1">{item.label}</h4>
         </div>
-      </div>
+      ))}
+    </div>
+  </div>
+</div>
+
 
        
       <div className="bg-white text-black mx-4 max-w-sm rounded my-9 p-4 shadow-lg">
